@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- head -->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- css stylesheets -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/emoji.css/dist/emoji.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <!-- js libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <!-- DEACTIVATED STAR <script src="sketch.js"></script> -->
+
+    <!-- details -->
+    <title>Yuri Piemontese</title>
+  </head>
+
+  <!-- body -->
+  <body class="body-with-margin">
+    <!-- navbar -->
+    <nav class="navbar pb-3 pt-3 fixed-top">
+      <a href="index.html" class="logo unselectable">YURI PIEMONTESE</a>
+      <a href="works.html" class="text-right selectable unselectable"
+        >↘ WORKS</a
+      >
+      <a href="about.html" class="text-right selectable selected unselectable"
+        >↘ ABOUT</a
+      >
+      <!-- <a href="portfolio.html" class="text-right selectable">↘ PDF VERSION</a> -->
+      <div class="line-1"></div>
+    </nav>
+
+    <!-- about content -->
+    <div
+      class="row about-pt"
+      data-aos="fade-up"
+      data-aos-anchor-placement="center-bottom"
+    >
+      <!-- scaffale -->
+      <div class="col-lg-6 order-lg-1 order-2 bookshelf">
+        <!-- <p class="mb-1">PDF VERSION</p>
+        <br /> -->
+        <!-- <div class="rack"> -->
+
+        <div
+          onClick="window.open('_assets/_downloads/Yuri-Michele-Piemontese-Portfolio-2020-min.pdf', '_blank', 'fullscreen=yes'); return false;"
+          class="portfolio-rect che-apre"
+        >
+          <div class="book-pull">
+            <div class="book-pages"></div>
+            <div class="book-pages"></div>
+            <div class="book-pages"></div>
+            <div class="book-pages"></div>
+          </div>
+          <div>
+            <p class="book-names unselectable">PROJECTS PORTFOLIO 2020</p>
+          </div>
+        </div>
+
+        <!-- <div class="portfolio-rect">
+          <div class="book-pull">
+            <div class="book-pages"></div>
+            <div class="book-pages"></div>
+            <div class="book-pages"></div>
+            <div class="book-pages"></div>
+          </div>
+          <div>
+            <p class="book-names unselectable">PROJECTS PORTFOLIO 2021</p>
+          </div>
+        </div> -->
+
+        <div
+          onClick="window.open('_assets/_downloads/Yuri-Michele-Piemontese-Portfolio-2022-min.pdf', '_blank', 'fullscreen=yes'); return false;"
+          class="portfolio-rect"
+        >
+          <div class="book-pull">
+            <div class="book-pages"></div>
+            <div class="book-pages"></div>
+            <div class="book-pages"></div>
+            <div class="book-pages"></div>
+          </div>
+          <div>
+            <p class="book-names unselectable">PROJECTS PORTFOLIO 2022</p>
+          </div>
+        </div>
+
+        <div
+          onClick="window.open('_assets/_downloads/Yuri-Michele-Piemontese-CV-min.pdf', '_blank', 'fullscreen=yes'); return false;"
+          class="portfolio-rect"
+        >
+          <div class="book-pull">
+            <div class="book-pages"></div>
+            <div class="book-pages"></div>
+            <div class="book-pages"></div>
+            <div class="book-pages"></div>
+          </div>
+          <div>
+            <p class="book-names unselectable">CURRICULUM VITAE</p>
+          </div>
+        </div>
+        <!-- 
+        <div class="portfolio-rect che-chiude">
+          <div class="book-pull"></div>
+        </div> -->
+        <!-- </div> -->
+      </div>
+
+      <!-- actual about description -->
+      <div class="col-lg-6 order-lg-2 order-1 description-about">
+        <p class="mb-1 h2 unselectable">WHO DAT BOI</p>
+
+        <div id="my-name-is" class="big-copy">
+          <p class="unselectable">
+            I'm Yuri Michele Piemontese, digital designer and front-end
+            developer from Foggia, South Italy and based in Milan.
+          </p>
+          <br />
+          <a id="identity"><img src="_assets/identity.png" /></a>
+
+          <p class="unselectable">
+            I also love playing guitar, which I will take seriously when I'm
+            gonna retire in a farm where no one will annoy me.
+          </p>
+        </div>
+
+        <br />
+        <br />
+        <br />
+
+        <!-- contacts -->
+
+        <p class="mb-1 h2 unselectable">CONTACTS</p>
+
+        <a class="selectable" href="mailto: ypiemontese@gmail.com">↘ Gmail</a>
+        <br />
+
+        <a
+          class="selectable"
+          href="https://www.linkedin.com/in/yuri-piemontese-38378a233/"
+          >↘ Linkedin</a
+        ><br />
+
+        <a class="selectable" href="https://www.instagram.com/yuripiemo/"
+          >↘ Instagram</a
+        >
+      </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="d-flex flex-wrap justify-content-between footer-about">
+      <p class="d-flex text-center-sm copyright unselectable">
+        <a>©2022 YURI MICHELE PIEMONTESE</a>
+      </p>
+    </footer>
+
+    <!-- initialize aos library for animations -->
+    <script>
+      AOS.init();
+    </script>
+
+    <script></script>
+  </body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- head -->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- css stylesheets -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/emoji.css/dist/emoji.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <!-- js libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <script src="sketch.js"></script>
+
+    <!-- details -->
+    <title>Yuri Piemontese</title>
+  </head>
+
+  <!-- body -->
+  <body>
+    <!-- navbar -->
+    <nav class="navbar pb-3 pt-3 fixed-top">
+      <a href="index.html" class="logo unselectable">YURI PIEMONTESE</a>
+      <a href="works.html" class="text-right selectable unselectable"
+        >↘ WORKS</a
+      >
+      <a href="about.html" class="text-right selectable unselectable"
+        >↘ ABOUT</a
+      >
+      <!-- <a href="portfolio.html" class="text-right selectable">↘ PDF VERSION</a> -->
+      <div class="line-1"></div>
+    </nav>
+
+<!-- div that wrap up everything to click anywhere -->
+<a id="mega-wrapper" href="works.html">
+
+    <!-- central copy -->
+    <div class="central-copy" >
+      <p data-aos="zoom-in" class="titolone fix-stroke unselectable">
+        TOP 10+ <br />
+        BEST <br />
+        DESIGN <br />
+        <span id="sequence"></span> HD*
+      </p>
+    </div>
+
+    <!-- scrolling ticker -->
+
+    <section id="ticker" class="ticker-section">
+      <div class="scrolling-ticker unselectable">
+        <div>
+          * CLICK ANYWHERE TO SEE FOR YOURSELF — * CLICK ANYWHERE TO SEE FOR YOURSELF — * CLICK ANYWHERE TO SEE FOR YOURSELF — * CLICK ANYWHERE TO SEE FOR YOURSELF</span>
+        </div>
+      </div>
+    </section>
+  </a>
+
+    <!-- js -->
+    <script>
+      // initialize aos library for animations
+      AOS.init();
+
+    
+      // sequence of years
+
+      var years = ["2022", "2017", "2018", "2019", "2020", "2021"];
+
+      textSequence(0);
+      function textSequence(i) {
+        if (years.length > i) {
+          setTimeout(function () {
+            document.getElementById("sequence").innerHTML = years[i];
+            textSequence(++i);
+          }, 1000); // 1 second (in milliseconds)
+        } else if (years.length == i) {
+          // Loop
+          textSequence(0);
+        }
+      }
+    </script>
+  </body>
+</html>
