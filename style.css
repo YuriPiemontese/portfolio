@@ -12,22 +12,22 @@
 
 @font-face {
   font-family: maax-rounded-regular;
-  src: url("/_fonts/Maax-Rounded.otf");
+  src: url("./_fonts/Maax-Rounded.otf");
 }
 
 @font-face {
   font-family: maax-regular;
-  src: url("/_fonts/Maax.otf");
+  src: url("./_fonts/Maax.otf");
 }
 
 @font-face {
   font-family: maax-bold;
-  src: url("/_fonts/Maax-Bold.otf");
+  src: url("./_fonts/Maax-Bold.otf");
 }
 
 @font-face {
   font-family: maax-italic;
-  src: url("/_fonts/Maax-Italic.otf");
+  src: url("./_fonts/Maax-Italic.otf");
 }
 
 /* general */
