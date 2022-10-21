@@ -2,32 +2,32 @@
 
 @font-face {
   font-family: maax-rounded-bold;
-  src: url(./_fonts/Maax-Rounded-Bold.woff);
+  src: url("./_fonts/Maax-Rounded-Bold.woff");
 }
 
 @font-face {
   font-family: maax-rounded-medium;
-  src: url(./_fonts/Maax-Rounded-Medium.woff);
+  src: url("./_fonts/Maax-Rounded-Medium.woff");
 }
 
 @font-face {
   font-family: maax-rounded-regular;
-  src: url(./_fonts/Maax-Rounded.woff);
+  src: url("./_fonts/Maax-Rounded.woff");
 }
 
 @font-face {
   font-family: maax-regular;
-  src: url(./_fonts/Maax.woff);
+  src: url("./_fonts/Maax.woff");
 }
 
 @font-face {
   font-family: maax-bold;
-  src: url(./_fonts/Maax-Bold.woff);
+  src: url("./_fonts/Maax-Bold.woff");
 }
 
 @font-face {
   font-family: maax-italic;
-  src: url(./_fonts/Maax-Italic.woff);
+  src: url("./_fonts/Maax-Italic.woff");
 }
 
 /* general */
