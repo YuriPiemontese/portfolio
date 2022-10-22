@@ -313,6 +313,8 @@ canvas {
 .bookshelf {
   display: flex;
   height: 40vw;
+  padding-left: 4vw;
+  padding-right: 4vw;
 }
 
 @media (max-width: 991px) {
@@ -365,9 +367,9 @@ canvas {
 
 .portfolio-rect:hover .book-pull {
   height: 10%;
-  border-bottom: 1.5px solid black;
-  border-left: 1.5px solid black;
-  border-right: 1.5px solid black;
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
   margin-left: 8%;
   margin-right: 8%;
 }
@@ -376,28 +378,63 @@ canvas {
   position: relative;
   height: 100%;
   width: 1.5px;
-  left: 20%;
+  left: 10%;
   background-color: black;
 }
 .book-pull :nth-child(2) {
   position: relative;
   height: 100%;
   width: 1.5px;
-  left: 40%;
+  left: 20%;
   background-color: black;
 }
 .book-pull :nth-child(3) {
   position: relative;
   height: 100%;
   width: 1.5px;
-  left: 60%;
+  left: 30%;
   background-color: black;
 }
 .book-pull :nth-child(4) {
   position: relative;
   height: 100%;
   width: 1.5px;
-  left: 80%;
+  left: 40%;
+  background-color: black;
+}
+.book-pull :nth-child(5) {
+  position: relative;
+  height: 100%;
+  width: 1.5px;
+  left: 50%;
+  background-color: black;
+}
+.book-pull :nth-child(6) {
+  position: relative;
+  height: 100%;
+  width: 1.5px;
+  left: 59%;
+  background-color: black;
+}
+.book-pull :nth-child(7) {
+  position: relative;
+  height: 100%;
+  width: 1.5px;
+  left: 68%;
+  background-color: black;
+}
+.book-pull :nth-child(8) {
+  position: relative;
+  height: 100%;
+  width: 1.5px;
+  left: 77%;
+  background-color: black;
+}
+.book-pull :nth-child(9) {
+  position: relative;
+  height: 100%;
+  width: 1.5px;
+  left: 86%;
   background-color: black;
 }
 
@@ -406,7 +443,7 @@ canvas {
 .book-names {
   writing-mode: vertical-lr;
 
-  margin-left: 38%;
+  margin-left: 35%;
   margin-top: 50px;
 }
 
