@@ -32,9 +32,9 @@
 
 @font-face {
   font-family: "maax-regular";
-  src: url("https://yuripiemontese.github.io/portfolio/portfolio/_fonts/Maax.otf")
+  src: url("https://yuripiemontese.github.io/portfolio/_fonts/Maax.otf")
       format("opentype"),
-    url("https://yuripiemontese.github.io/portfolio/portfolio/_fonts/Maax.woff")
+    url("https://yuripiemontese.github.io/portfolio/_fonts/Maax.woff")
       format("woff"),
     url("https://yuripiemontese.github.io/portfolio/_fonts/Maax.woff2")
       format("woff2");
