@@ -2,44 +2,44 @@
 
 @font-face {
   font-family: "maax-rounded-bold";
-  src: url("${../_fonts/Maax-Rounded-Bold.otf}") format("opentype"),
-    url("${../_fonts/Maax-Rounded-Bold.woff}") format("woff"),
-    url("${../_fonts/Maax-Rounded-Bold.woff2}") format("woff2");
+  src: url("../_fonts/Maax-Rounded-Bold.otf") format("opentype"),
+    url("../_fonts/Maax-Rounded-Bold.woff") format("woff"),
+    url("../_fonts/Maax-Rounded-Bold.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "maax-rounded-medium";
-  src: url("${../_fonts/Maax-Rounded-Medium.otf}") format("opentype"),
-    url("${../_fonts/Maax-Rounded-Medium.woff}") format("woff"),
-    url("${../_fonts/Maax-Rounded-Medium.woff2}") format("woff2");
+  src: url("../_fonts/Maax-Rounded-Medium.otf") format("opentype"),
+    url("../_fonts/Maax-Rounded-Medium.woff") format("woff"),
+    url("../_fonts/Maax-Rounded-Medium.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "maax-rounded-regular";
-  src: url("${../_fonts/Maax-Rounded.otf}") format("opentype"),
-    url("${../_fonts/Maax-Rounded.woff}") format("woff"),
-    url("${../_fonts/Maax-Rounded.woff2}") format("woff2");
+  src: url("../_fonts/Maax-Rounded.otf") format("opentype"),
+    url("../_fonts/Maax-Rounded.woff") format("woff"),
+    url("../_fonts/Maax-Rounded.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "maax-regular";
-  src: url("${../_fonts/Maax.otf}") format("opentype"),
-    url("${../_fonts/Maax.woff}") format("woff"),
-    url("${../_fonts/Maax.woff2}") format("woff2");
+  src: url("../_fonts/Maax.otf") format("opentype"),
+    url("../_fonts/Maax.woff") format("woff"),
+    url("../_fonts/Maax.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "maax-bold";
-  src: url("${../_fonts/Maax-Bold.otf}") format("opentype"),
-    url("${../_fonts/Maax-Bold.woff}") format("woff"),
-    url("${../_fonts/Maax-Bold.woff2}") format("woff2");
+  src: url("../_fonts/Maax-Bold.otf") format("opentype"),
+    url("../_fonts/Maax-Bold.woff") format("woff"),
+    url("../_fonts/Maax-Bold.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "maax-italic";
-  src: url("${../_fonts/Maax-Italic.otf}") format("opentype"),
-    url("${../_fonts/Maax-Italic.woff}") format("woff"),
-    url("${../_fonts/Maax-Italic.woff2}") format("woff2");
+  src: url("../_fonts/Maax-Italic.otf") format("opentype"),
+    url("../_fonts/Maax-Italic.woff") format("woff"),
+    url("../_fonts/Maax-Italic.woff2") format("woff2");
 }
 
 /* general */
