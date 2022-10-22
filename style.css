@@ -2,7 +2,8 @@
 
 @font-face {
   font-family: "maax-rounded-bold";
-  src: url("_fonts/Maax-Rounded-Bold.otf") format("opentype"),
+  src: url("https://github.com/YuriPiemontese/portfolio/blob/main/_fonts/Maax-Rounded-Bold.otf?raw=true")
+      format("opentype"),
     url("_fonts/Maax-Rounded-Bold.woff") format("woff"),
     url("_fonts/Maax-Rounded-Bold.woff2") format("woff2");
 }
