@@ -2,12 +2,9 @@
 
 @font-face {
   font-family: "maax-rounded-bold";
-  src: url("https://github.com/YuriPiemontese/portfolio/blob/main/_fonts/Maax-Rounded-Bold.otf?raw=true")
-      format("opentype"),
-    url("https://github.com/YuriPiemontese/portfolio/blob/main/_fonts/Maax-Rounded-Bold.woff?raw=true")
-      format("woff"),
-    url("https://github.com/YuriPiemontese/portfolio/blob/main/_fonts/Maax-Rounded-Bold.woff2?raw=true")
-      format("woff2");
+  src: url("_fonts/Maax-Rounded-Bold.otf?raw=true") format("opentype"),
+    url("_fonts/Maax-Rounded-Bold.woff?raw=true") format("woff"),
+    url("_fonts/Maax-Rounded-Bold.woff2?raw=true") format("woff2");
 }
 
 @font-face {
