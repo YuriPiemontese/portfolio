@@ -125,12 +125,14 @@ a {
 @media (max-width: 991px) {
   #identity {
     margin-left: 60%;
+    scale: 45%;
   }
 }
 
 @media (max-width: 768px) {
   #identity {
-    margin-left: 40%;
+    margin-left: 35%;
+    scale: 40%;
   }
 }
 
@@ -450,11 +452,20 @@ canvas {
 @media (max-width: 991px) {
   .book-names {
     margin-left: 40%;
+    fomnt-size: 16px;
   }
 }
 @media (max-width: 768px) {
   .book-names {
+    margin-left: 34.8%;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 350px) {
+  .book-names {
     margin-left: 34.5%;
+    font-size: 12px;
   }
 }
 
